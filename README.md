@@ -1,5 +1,10 @@
-# Getting Started with Create React App
+# Quizzical_Project
+This is quizzical project about animals, It tests user knowledge about animals by giving 5 questions
+once user is confident about his answers, user can click on check answers button to display the correct answers and get score for the quiz, the pass mark for this quiz is 3 out of 5
+ALL THE BEST
 
+# Getting Started with Create React App
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
