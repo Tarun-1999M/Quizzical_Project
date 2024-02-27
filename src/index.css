@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+.welcomePage{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position:absolute;
+  top:30%;
+  left:30%;
+  font-family: sans-serif;
+  font-size: x-large;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  font-family:sans-serif;
+  font-size: large;
+  cursor: pointer;
+  padding:4px;
+  border-radius: 4px;
+
+}
+
+.quiz-container{
+  padding:40px;
+  width:900px;
+  margin:40px auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+
+
+.question{
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom:40px;
+}
+
+.answers{
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+
+}
+
+.answer{
+  border:1px solid black;
+  border-radius:5px;
+  padding:10px;
+  cursor: pointer;
+  box-shadow: 2px 0 black;
+}
+
+.answer.selected{
+  background-color: #D6DBF5;
+}
+
+.play-again{
+  border:1px solid black;
+  width:fit-content;
+  padding:20px;
+  font-size: large;
+  cursor: pointer;
+  margin:10px auto 0 auto;
+  box-shadow: 2px 0 black;
+  background-color: #4D5B9E;
+  color:#ffffff;
+  border-radius: 8px;
+}
+
+.answer.correct{
+  background-color: #94D7A2;
+}
+
+.answer.incorrect{
+  background-color: #F8BCBC;
+}
+
+.score{
+  width:fit-content;
+  font-size: large;
+  margin:10px auto;
 }

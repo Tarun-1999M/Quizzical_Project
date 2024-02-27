@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import EnterQuiz from "./EnterQuiz"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default function App(){
+  const [enterQuiz, setEnterQuiz] = React.useState(false)
+  
+
+function playAgain(){
+  setEnterQuiz(false)
 }
 
-export default App;
+  if(enterQuiz){
+    return <EnterQuiz playAgain={playAgain}/>
+  }
+
+  return(
+    <div className="welcomePage">
+      <h1>Quizzical</h1>
+      <p>Test your knowledge about animals by completing this Quizzical</p>
+      <button onClick={()=>setEnterQuiz(true)}>Start quiz</button>
+    </div>
+  )
+}
