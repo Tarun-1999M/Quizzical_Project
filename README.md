@@ -1,9 +1,11 @@
 **Quiz Master:** A React-Based Trivia Application
 
 **Overview**
+
 Quiz Master is an interactive web-based trivia application designed to challenge users with a variety of questions across different categories. Leveraging the power of React and CSS, this application offers a seamless and dynamic user experience, enriching the process of learning through quizzes. The core functionality includes fetching trivia questions from an API, presenting them in a randomized order, and scoring user responses in real-time.
 
 **Features**
+
 **Dynamic Question Fetching:** Utilizes the Open Trivia Database API to fetch a set of 5 trivia questions in the "Animals" category at an "easy" difficulty level. This ensures a fresh experience with every quiz attempt.
 
 **Interactive Quiz Flow:** Users can select answers for each question, with the application tracking selections and providing immediate visual feedback on correctness upon submission.
@@ -16,6 +18,7 @@ Quiz Master is an interactive web-based trivia application designed to challenge
 
 
 **Technologies Used**
+
 **React:** Empowers the application with a component-based architecture, facilitating efficient state management and dynamic content rendering.
 
 **CSS:** Custom stylesheets enhance the UI, providing a visually appealing and intuitive user interface that adapts responsively to different devices.
