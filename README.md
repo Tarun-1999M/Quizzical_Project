@@ -5,14 +5,21 @@ Quiz Master is an interactive web-based trivia application designed to challenge
 
 **Features**
 **Dynamic Question Fetching:** Utilizes the Open Trivia Database API to fetch a set of 5 trivia questions in the "Animals" category at an "easy" difficulty level. This ensures a fresh experience with every quiz attempt.
+
 **Interactive Quiz Flow:** Users can select answers for each question, with the application tracking selections and providing immediate visual feedback on correctness upon submission.
+
 **Real-Time Scoring and Feedback:** At the end of the quiz, users are presented with their scores and correct answers. High scores trigger a vibrant confetti animation, celebrating the user's success.
+
 **Answer Randomization:** To keep the quiz challenging, answers are shuffled for every question, preventing pattern recognition and encouraging true knowledge testing.
+
 **State Management with React Hooks:** Utilizes React's useState and useEffect hooks for managing quiz data, user selections, and the quiz's state (e.g., question fetching, answer checking).
+
 
 **Technologies Used**
 **React:** Empowers the application with a component-based architecture, facilitating efficient state management and dynamic content rendering.
+
 **CSS:** Custom stylesheets enhance the UI, providing a visually appealing and intuitive user interface that adapts responsively to different devices.
+
 **react-confetti:** Adds an engaging visual reward for high-scoring users, leveraging third-party library integration within React apps.
 
 
@@ -20,9 +27,13 @@ Quiz Master is an interactive web-based trivia application designed to challenge
 
 Developing Quiz Master has been an enriching journey, reinforcing key skills and uncovering new insights in web development:
 **API Integration:** Mastered fetching and handling data from external APIs within a React application, including asynchronous operations with async/await and error handling.
+
 **Advanced React Patterns:** Deepened understanding of React hooks for state and lifecycle management, demonstrating the power of functional components in building complex applications.
+
 **UI/UX Design:** Gained practical experience in designing and implementing user-friendly interfaces with CSS, focusing on usability and aesthetic appeal.
+
 **Problem-Solving:** Enhanced problem-solving skills through algorithmic challenges, such as answer randomization and dynamic scoring mechanisms.
+
 Explore the Quiz Master
 Embark on your trivia journey with Quiz Master and challenge yourself across a wide range of topics. Whether you're looking to test your knowledge, improve your react skills, or just have some fun, Quiz Master is your go-to quiz app.
 
